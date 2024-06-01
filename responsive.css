@@ -1,0 +1,64 @@
+@media (width>768px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400&family=Chivo:wght@100;400&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+    
+    
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+            background-color:hsla(224, 35%, 11%, 1);
+           
+    
+    }
+ 
+.tablet2{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+h1{
+    width: 635px;
+height: 112px;
+font-size: 48px;
+font-weight: 100;
+line-height: 56px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.span{
+    width: 635px;
+    height: 112px;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

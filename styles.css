@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400&family=Chivo:wght@100;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+
+
+    --light-green:#54E6AF;
+    --dark-blue:#2C344B;
+    --very-darkblue:#121725;
+    --light-blue:#5A668A;
+    --very-lightblue:#C2CBE5;
+  }
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    /* background-color: hsla(224, 35%, 11%, 1); */
+    position: relative;
+
+  
+}
+
+.box{
+width: 375px;
+height: 667px;
+opacity: 90%;
+background-color:hsla(224, 35%, 11%, 1);
+background-blend-mode: multiply;
+}
+
+.mobile2{
+    margin-top: 70px;
+    margin-left: 110px;
+}
+.span{
+font-family: 'chivo';
+font-size: 26px;
+font-weight: 100;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: center;
+color: hsla(157, 74%, 61%, 1);
+}
+h1{
+    color: white;
+    font-family: 'chivo';
+font-size: 26px;
+font-weight: 100;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 40px;
+}
+
+.text{
+    width: 327px;
+height: 100px;
+font-family: 'Chivo';
+font-size: 15px;
+font-weight: 100;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+color: hsla(224, 40%, 83%, 1);
+opacity: 80%;
+margin-top: 16px;
+margin-left: 24px;
+}
+
+.img2{
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+.tablet2{
+    display: none;
+}
+
+.input{
+width: 327px;
+height: 46px;
+background-color: hsla(224, 26%, 23%, 1);
+border-radius: 30px;
+border: 0px;
+margin-top: 52px;
+margin-left: 24px;
+cursor: pointer;
+
+}
+input::placeholder {
+width: 95px;
+height: 28px;
+opacity: 0.5px;
+font-family: 'Chivo';
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: hsla(0, 0%, 100%, 1);
+position: relative;
+left: 30px;
+  }
+
+  .submit{
+width: 326px;
+height: 46px;
+background-color: hsla(157, 74%, 61%, 1);
+border: 0px;
+border-radius: 30px;
+font-family: 'Chivo';
+font-size: 14px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: hsla(224, 35%, 11%, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 24px;
+margin-top: 20px;
+cursor: pointer;
+
+  }
+
+  body::before{
+    content:'';
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(assets/mobile1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -100;
+  
+   
+  }
+
+  .error{
+    color: red;
+width: 175px;
+height: 14px;
+font-family: 'Chivo';
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 10px;
+margin-left: 30px;
+  }
+
+ 
+
+
